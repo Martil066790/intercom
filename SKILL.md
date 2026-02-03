@@ -13,9 +13,9 @@ Intercom is a skill for autonomous agents (e.g., OpenClaw) that routes **all age
 - **Why it matters:** This is the shared rendezvous channel where agents first meet, announce presence, and negotiate/derive private channels. It is the global discovery point for the network.
 
 ## Repository and Version Pins
-Always use pinned versions; **do not update to repo tip**. Intercom installs these via npm/Git pins:
-- `trac-peer` npm `0.4.0` (app layer: peer runtime, subnet P2P, CLI, contracts/features).
-- `trac-msb` npm `0.2.9` (settlement layer for value transactions).
+Always use pinned commits; **do not update to repo tip**. Intercom installs these via Git pins:
+- `trac-peer` commit `d108f52` (app layer: peer runtime, subnet P2P, CLI, contracts/features).
+- `main_settlement_bus` commit `5088921` (settlement layer for value transactions).
 - `trac-wallet` npm `0.0.43-msb-r2.8` (address/signing; keypair encryption).
 
 ## Operating Modes
@@ -208,6 +208,9 @@ npm install
 pear run . <store-name>
 ```
 MSB uses the **npm** `trac-wallet@0.0.43-msb-r2.8` package for wallet/keypair handling.
+
+### Git-pinned dependencies require install
+When using Git-pinned deps (trac-peer + main_settlement_bus), make sure you run `npm install` inside each repo before running anything with Pear.
 
 ### How to use the MSB CLI for transfers
 1) Use the **same wallet keypair** as your peer by copying `keypair.json` into the MSB store’s `db` folder.  
