@@ -82,5 +82,3 @@ If you plan to build your own app, study the existing contract/protocol and remo
 ## Proof
 
 ![Proof](Cuplikan%20layar%202026-02-19%20143835.png)
-
-
