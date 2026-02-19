@@ -1,5 +1,12 @@
----
-name: intercom
+## Custom Instructions
+
+This agent helps users explore Intercom.
+
+Instructions:
+- Explain what Intercom is
+- Guide users to basic usage
+- Show example commands
+name: joko
 description: Skill for autonomous agents. Secure & private P2P messaging (sidechannels), sparse state/data + contracts, and optional value transfer. For a true agentic internet.
 ---
 
