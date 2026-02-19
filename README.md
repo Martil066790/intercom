@@ -79,3 +79,7 @@ Intercom is a single long-running Pear process that participates in three distin
 
 ---
 If you plan to build your own app, study the existing contract/protocol and remove example logic as needed (see `SKILL.md`).
+## Proof
+
+![Proof](Cuplikan%20layar%202026-02-19%20143835.png)
+
