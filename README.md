@@ -1,33 +1,64 @@
-# Intercom
-## My Trac Address: trac1c53naklvufg94nh76arcf0mygl9cg7e5d0p58lf5gh56nqddjrgsdf3npa
-💀 bajang Tracker
-⚔ A custom crypto tracking application built on top of the Intercom framework.
 
-🚀 Overview
+TRAC Address : trac1c53naklvufg94nh76arcf0mygl9cg7e5d0p58lf5gh56nqddjrgsdf3npa
+
+
+
+# 💀 ai Tracker
+
+> ⚔ A custom crypto tracking application built on top of the Intercom framework.
+
+---
+
+## 🚀 Overview
+
 Ainz Tracker is a lightweight crypto price tracking tool designed to fetch real-time market data using the CoinGecko API.
 
 Built with a custom red-black themed UI, this application demonstrates how Intercom can be extended into a functional crypto monitoring tool with structured agent instructions.
 
-✨ Features
-🔴 Custom Red & Black UI
-📊 Real-time crypto price tracking
-🌐 CoinGecko API integration
-⚡ Fast and lightweight Express server
-🤖 Agent-compatible skill instructions
-🛠 Tech Stack
-Technology	Purpose
-Node.js	Backend runtime
-Express	Web server
-Axios	API requests
-CoinGecko API	Market data source
+---
 
-📡 API Endpoint
+## ✨ Features
+
+- 🔴 Custom Red & Black UI
+- 📊 Real-time crypto price tracking
+- 🌐 CoinGecko API integration
+- ⚡ Fast and lightweight Express server
+- 🤖 Agent-compatible skill instructions
+
+---
+
+## 🛠 Tech Stack
+
+| Technology | Purpose |
+|------------|----------|
+| Node.js | Backend runtime |
+| Express | Web server |
+| Axios | API requests |
+| CoinGecko API | Market data source |
+
+---
+
+## 📡 API Endpoint
+
+```bash
 GET /api/price/:coin
 
 Example : /api/price/bitcoin
 
-📸 Proof of Work
-🖥 Application Running
+```
+---
+
+## 📸 Proof of Work
+
+### 🖥 Application Running
+![Running](proof/Screenshot_20260216-113607_1.jpg)
+
+### 🖥 Application Running
+![Running](proof/Screenshot_20260216-113619_1.jpg)
+
+### 🖥 Application Running
+![Running](proof/Screenshot_20260216-113650_1.jpg)
+
 
 ## Proof
 
